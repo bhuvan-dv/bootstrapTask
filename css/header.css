@@ -1,0 +1,14 @@
+.greyMenuBlock {
+  background-color: #f0f0e9;
+}
+.greyMenuBlock ul li a {
+  color: rgb(105, 103, 99);
+}
+#HeaderBlock ul li a {
+  color: rgb(105, 103, 99);
+  text-decoration: none;
+}
+#HeaderBlock ul li a:hover {
+  color: rgb(254, 152, 15);
+  text-decoration: none;
+}

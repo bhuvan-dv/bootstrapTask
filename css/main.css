@@ -1,0 +1,76 @@
+@import url(./header.css);
+@import url(../slider/css/slider.css);
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+}
+ul {
+  list-style-type: none;
+}
+#icons ul li {
+  /* background-color: black; */
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#icons ul li:nth-child(1):hover,
+#icons ul li:nth-child(1):hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#accordionCategorySection h2 {
+  color: rgb(254, 152, 15);
+}
+.category-tab ul {
+  background: #40403e;
+  border-bottom: 1px solid #fe980f;
+  list-style: none outside none;
+  margin: 0 0 30px;
+  padding: 0;
+  width: 100%;
+}
+
+.category-tab ul li a {
+  border: 0 none;
+  border-radius: 0;
+  color: #b3afa8;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.category-tab ul li a:hover {
+  background: #fe980f;
+  color: #fff;
+}
+.price-range h2 {
+  color: rgb(254, 152, 15);
+}
+.well {
+  background-color: #ffffff;
+  border: 1px solid #f7f7f0;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 35px;
+}
+.addtodom{
+  display: block;
+}
+.removefromdom{
+  display: none;
+}
